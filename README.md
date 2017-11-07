@@ -28,9 +28,9 @@ using ProcedureableMethod
 
 def func value
 	case value
-	when 1.method(:<)
+	when 1.method(:<=)
 		"plus"
-	when -1.method(:>)
+	when -1.method(:>=)
 		"minus"
 	when 0.method(:==)
 		"zero"
